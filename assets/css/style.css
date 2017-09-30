@@ -5,6 +5,14 @@ body {
     background-size: 100% 100%;	
 }
 
+.answer{
+	opacity: 0;
+}
+
+.answer:hover {
+	border-color: blue;
+	
+}
 
 .panel-heading {
 	background: #b5dff5;
@@ -26,6 +34,7 @@ body {
 .question {
 	text-align: center;
 	height: 160px;
+	font-size: 32px;
 	
 }
 
@@ -40,4 +49,9 @@ body {
 	text-align: center;
 	padding-top: 4px;
 	background: #e3edf4;
+	margin-bottom: 25px;
+}
+
+.score {
+	opacity: 0;
 }
